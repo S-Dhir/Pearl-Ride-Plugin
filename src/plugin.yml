@@ -1,5 +1,5 @@
 ﻿name: RideEnderPearls
-version: 1.0.0-SNAPSHOT
+version: 1.0.0
 author: Shiven
 main: org.github.s_dhir.ridepearls.RidePearlsPlugin
 load: STARTUP
