@@ -26,9 +26,12 @@ Instead of the plugin completely modifying the way Ender Pearls work, I plan to 
 ![Plan For future Crafting Recipe](https://github.com/S-Dhir/Pearl-Ride-Plugin/blob/main/FuturePlan.jpg?raw=true)
 ### Demo Video
 Mod Showcasing
+### Fix NoGravity
+EnderPearls with NoGravity attribute will very quickly slow down. However, I plan to make their velocity constant.
 ## Compiling yourself
 The project was compiled manually using [Artifacts](https://www.jetbrains.com/help/idea/working-with-artifacts.html#examples) in [Intellij IDEA](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj4x9jh8pSKAxUpTGwGHdDHERcQFnoECA0QAQ&url=https://www.jetbrains.com/idea/&usg=AOvVaw1dUbYp3QZeAgvbt0Z6D1Zw&opi=89978449). The project does not use maven/gradle. 
 Apart from SpigotAPI, CraftBukkit and Bukkit and their dependencies, there are no other dependencies. 
+
 ## Spigot page
 The plugin is not ready yet to be published on Spigot. But you can download an early version from the releases page on the Github.
 ## Authors
