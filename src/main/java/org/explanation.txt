@@ -1,0 +1,2 @@
+Why does the source contain little bits of bukkit code?
+Honestly, I don't know. Intellij was having some struggles with recognizing certain enums from bukkit. Moving them here, fixed the issue.
