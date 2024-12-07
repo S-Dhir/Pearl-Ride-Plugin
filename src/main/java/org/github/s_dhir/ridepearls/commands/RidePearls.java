@@ -34,7 +34,21 @@ public class RidePearls extends CommandGamerule implements CommandExecutor {
      */
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+        switch (args[0].toLowerCase()) {
+            case "toggleenable":
+                return toggleEnable(sender, command, label, args);
 
+            case "deletepearls":
+                return deletePearls(sender, command, label, args);
+        }
+
+    }
+
+    protected boolean deletePearls(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+        return false;
+    }
+
+        protected boolean toggleEnable(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (senderIsValid(sender)) {
             thisPlugin.isDisabled = true;
 
