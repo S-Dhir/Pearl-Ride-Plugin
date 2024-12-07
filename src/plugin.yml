@@ -1,0 +1,6 @@
+﻿name: RideEnderPearls
+version: 1.0.0-SNAPSHOT
+author: Shiven
+main: org.github.s_dhir.ridepearls.RidePearlsPlugin
+load: STARTUP
+api-version: 1.21.4
