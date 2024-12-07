@@ -21,7 +21,9 @@ Note that the plugin is in pre-release stage due to lack of configurability.
 `/toggleEnable` - Enables/Disables plugin
 `/deletePearls` - When a player throws an Ender Pearl while riding an Ender Pearl, what should happen to the Pearl that the player is riding?
 ### Crafting
-Instead of the plugin completely modifying the way Ender Pearls work, I plan to add a completely new item that behaves in this way. ![Plan For future Crafting Recipe](https://github.com/S-Dhir/Pearl-Ride-Plugin/blob/main/FuturePlan.jpg?raw=true)
+Instead of the plugin completely modifying the way Ender Pearls work, I plan to add a completely new item that behaves in this way.
+
+![Plan For future Crafting Recipe](https://github.com/S-Dhir/Pearl-Ride-Plugin/blob/main/FuturePlan.jpg?raw=true)
 ### Demo Video
 Mod Showcasing
 ## Compiling yourself
