@@ -5,6 +5,8 @@ package org.github.s_dhir.ridepearls;
 
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
+import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.java.JavaPluginLoader;
@@ -92,6 +94,7 @@ public class RidePearlsPlugin extends JavaPlugin {
         return false;
     }
     public void registerCommands(){
+
         //this.getCommand("ridepearls").setExecutor(new RidePearls(this));
         //this.getCommand("ridepearls").setTabCompleter(new RidePearlsTabAutoCompleter(this));
     }

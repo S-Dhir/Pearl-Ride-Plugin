@@ -40,6 +40,8 @@ public class RidePearls extends CommandGamerule implements CommandExecutor {
 
             case "deletepearls":
                 return deletePearls(sender, command, label, args);
+            default:
+                return false;
         }
 
     }
@@ -48,7 +50,7 @@ public class RidePearls extends CommandGamerule implements CommandExecutor {
         return false;
     }
 
-        protected boolean toggleEnable(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
+    protected boolean toggleEnable(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (senderIsValid(sender)) {
             thisPlugin.isDisabled = true;
 
@@ -69,7 +71,7 @@ public class RidePearls extends CommandGamerule implements CommandExecutor {
             try {
 
                 return Objects.equals(thisPlugin.props.getProperty("enable-command-block"), "true");
-            } catch (Exception e){
+            } catch (Exception ignored){
             }
         }
         if(sender instanceof ConsoleCommandSender) {
